@@ -1,6 +1,6 @@
 # ios 开发教程
 
-[resources](/ios/resources)
+[resources](resources)
 
 ---
 
