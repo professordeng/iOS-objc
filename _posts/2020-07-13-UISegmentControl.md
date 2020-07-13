@@ -29,5 +29,9 @@ title: UISegmentControl
 
 其中，`imageWithColor` 是将颜色转为图片的方法，需要自己实现，可以参考 [UIColor 拓展](https://professordeng.com/ios/2020/07/13/UIColor.html)。
 
+## 2. 分段控件局限性
+
+1. 很难去掉圆角
+
 
 
