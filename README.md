@@ -1,3 +1,9 @@
+[首页](/) | [目录]({{site.baseurl}}) | [资源]({{site.baseurl}}/resources)
+
+---
+
+## 文章列表
+
 {% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y' " %}
 {% for group in posts_by_year %}
 
