@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" rowHeight="187" id="KGk-i7-Jjw" customClass="DynamicCell">
+            <rect key="frame" x="0.0" y="0.0" width="658" height="187"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="658" height="187"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wrj-K2-Bus">
+                        <rect key="frame" x="10" y="60.5" width="638" height="116.5"/>
+                        <color key="backgroundColor" red="0.1847688854" green="0.66115665440000004" blue="0.54633963109999995" alpha="0.50584956030150752" colorSpace="custom" customColorSpace="sRGB"/>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jg2-PI-gIg">
+                        <rect key="frame" x="558" y="10" width="90" height="20"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autolayout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROJ-8r-NmW">
+                                <rect key="frame" x="15" y="2.5" width="60.5" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="0.5123861494974874" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="6Yg-he-mtX"/>
+                            <constraint firstItem="ROJ-8r-NmW" firstAttribute="centerY" secondItem="jg2-PI-gIg" secondAttribute="centerY" id="SNp-ca-xY5"/>
+                            <constraint firstAttribute="width" constant="90" id="YxX-F5-VBS"/>
+                            <constraint firstItem="ROJ-8r-NmW" firstAttribute="centerX" secondItem="jg2-PI-gIg" secondAttribute="centerX" id="sy9-Gu-LL1"/>
+                        </constraints>
+                    </view>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p93-g2-dIO" customClass="TagView">
+                        <rect key="frame" x="10" y="10" width="540" height="42.5"/>
+                        <color key="backgroundColor" red="1" green="0.58431372550000005" blue="0.0" alpha="0.503395885678392" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" priority="1" constant="20" id="FtB-cY-zbp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Wrj-K2-Bus" firstAttribute="leading" secondItem="p93-g2-dIO" secondAttribute="leading" id="925-sr-Exo"/>
+                    <constraint firstItem="jg2-PI-gIg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="J3i-Gg-Mo3"/>
+                    <constraint firstAttribute="bottom" secondItem="Wrj-K2-Bus" secondAttribute="bottom" priority="999" constant="10" id="SaV-8O-xln"/>
+                    <constraint firstItem="p93-g2-dIO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="T2p-uR-wI1"/>
+                    <constraint firstItem="Wrj-K2-Bus" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jg2-PI-gIg" secondAttribute="bottom" constant="8" id="Ubd-js-U6r"/>
+                    <constraint firstItem="jg2-PI-gIg" firstAttribute="leading" secondItem="p93-g2-dIO" secondAttribute="trailing" constant="8" id="acr-zA-YzW"/>
+                    <constraint firstItem="p93-g2-dIO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="c0T-4S-5Wy"/>
+                    <constraint firstItem="Wrj-K2-Bus" firstAttribute="trailing" secondItem="jg2-PI-gIg" secondAttribute="trailing" id="cdt-g7-7i6"/>
+                    <constraint firstItem="Wrj-K2-Bus" firstAttribute="top" secondItem="p93-g2-dIO" secondAttribute="bottom" constant="8" id="g4I-vc-dL6"/>
+                    <constraint firstAttribute="trailing" secondItem="jg2-PI-gIg" secondAttribute="trailing" constant="10" id="rNn-1S-osS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="accessory" destination="jg2-PI-gIg" id="4He-iZ-mVH"/>
+                <outlet property="tagView" destination="p93-g2-dIO" id="3c1-8j-cm7"/>
+                <outlet property="textView" destination="Wrj-K2-Bus" id="2Kv-L5-zhr"/>
+                <outlet property="topViewHeight" destination="FtB-cY-zbp" id="JLx-da-U9L"/>
+            </connections>
+            <point key="canvasLocation" x="-13.043478260869566" y="78.683035714285708"/>
+        </tableViewCell>
+    </objects>
+</document>
