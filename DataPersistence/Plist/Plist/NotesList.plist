@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>it&apos;s a title</string>
+		<key>content</key>
+		<string>Welcome to MyNote.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>I believe you</string>
+		<key>content</key>
+		<string>欢迎使用MyNote。</string>
+	</dict>
+</array>
+</plist>
