@@ -1,8 +1,8 @@
 title: 基于 objc 的 iOS 开发教程
 url: https://professordeng.com            # 网站域名
-baseurl: /ios-objc                        # 站点路径
+baseurl: /iOS-objc                        # 站点路径
 description: ProfessorDeng                # 网站描述
-img: /ios-objc/img                           # 图片路径
+img: /iOS-objc/img                        # 图片路径
 
 # 插件
 plugins:
